@@ -1,0 +1,61 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #06b6d4;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+}
+
+.block-container {
+  padding-top: 1.4rem;
+  padding-bottom: 3rem;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 0.2rem;
+}
+
+.sub-title {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 1.2rem;
+}
+
+.metric-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.06);
+}
+
+.metric-label {
+  font-size: 0.84rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.info-box {
+  background: linear-gradient(135deg, #eff6ff, #ecfeff);
+  border: 1px solid #bfdbfe;
+  border-radius: 18px;
+  padding: 18px 20px;
+  margin: 12px 0 20px 0;
+}
+
+.footer-note {
+  color: var(--muted);
+  font-size: 0.86rem;
+  padding-top: 1rem;
+}
